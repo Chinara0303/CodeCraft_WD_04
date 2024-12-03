@@ -1,0 +1,39 @@
+ * {
+    box-sizing: border-box;
+ }
+ li{
+   list-style: none;
+ }
+
+ html{
+   scroll-behavior: smooth;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ .App {
+    height: 100vh;
+    .sections {
+      width: 100%;
+      height: calc(100vh - 70px);
+      position: relative;
+      top: 70px;
+  
+      >* {
+         height: calc(100vh - 70px);
+         overflow-x: hidden;
+      }
+   }
+ }
+
+  ::-webkit-scrollbar{width: 15px; }
+ ::-webkit-scrollbar-thumb {
+   background: crimson;
+   border-radius: 10px;
+ }
+ ::-webkit-srcollbar-track{
+   background: white;
+ }
+

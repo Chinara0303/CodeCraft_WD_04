@@ -1,0 +1,48 @@
+@import '../../global.scss';
+
+.about-me{
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+    .headerTitle{
+        margin-bottom: 50px;
+        h2 {
+            font-size: 40px;
+            color: crimson;
+            text-align: center;
+            font-weight: 500;
+            font-style: inherit;
+            letter-spacing: 2px;
+        }
+    }
+   
+    .detailed{
+        .detail-box{
+            h3{
+                text-align: center;
+            }
+            ul{
+                margin-top: 10px;
+                li{
+                    text-align: center;
+                    padding-top: 15px;
+                    p{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 10px;
+                        i{
+                            color: crimson;
+                        }
+                    }
+                    .line{
+                        width: 50%;
+                        margin: auto;
+                        height: 1px;
+                        background-color: #8080803d;
+                    }
+                }
+            }
+        }
+    }
+}

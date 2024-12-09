@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import Menu from './components/Menu/Menu';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import AboutMe from './components/AboutMe/AboutMe';
 
 function App() {
   const [menuOpen, setmenuOpen] = useState(false)
@@ -28,6 +29,7 @@ function App() {
         <Menu menuOpen={menuOpen} setmenuOpen={setmenuOpen} />
         <div className="sections">
           <Intro/>
+          <AboutMe/>
           <Skills/>
           <Works/>
         </div>

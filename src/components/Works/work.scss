@@ -5,6 +5,7 @@
     position: relative;
     overflow-y: hidden;
     margin-top: 20px;
+    padding: 20px;
 
     .slick-slide>div {
         margin: 0 10px;
@@ -23,6 +24,7 @@
     }
 
     .headerTitle {
+        margin-bottom: 50px;
         h2 {
             text-align: center;
             font-size: 40px;
@@ -39,8 +41,8 @@
         justify-content: center;
 
         .container {
-            max-width: 900px;
-            padding: 0 20px;
+            max-width: 900px !important;
+            padding: 0 20px !important;
 
             @include mobile {
                 width: 500px;
